@@ -12,7 +12,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 cd /tmp
 rm -f shadowsocks_mini.tar.gz
-curl -O https://github.com/vectxi/miwifi-ss/master/mini/shadowsocks_mini.tar.gz
+curl -O https://raw.githubusercontent.com/vectxi/miwifi-ss/master/mini/shadowsocks_mini.tar.gz
 tar zxf shadowsocks_mini.tar.gz
 
 # install shadowsocks ss-redir to /data/usr/sbin
